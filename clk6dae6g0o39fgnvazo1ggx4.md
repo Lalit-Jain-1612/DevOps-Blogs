@@ -55,6 +55,21 @@ Lets start with what Linux, why Linux & how it is important for DevOps
 * Scalability: Linux excels at handling scalable workloads, allowing DevOps teams to efficiently manage and scale their infrastructure as needed.
     
 
+### Linux Architecture:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689597027273/5c79940e-0064-4805-8622-e49b07935a34.png align="center")
+
+* Hardware: The physical parts of a computer, like the CPU, memory, storage, and input/output devices.
+    
+* Kernel: The brain of the operating system that interacts with the hardware and manages resources like memory and processing power.
+    
+* Shell: It is the User interface that allows users to enter commands and that commands goes to kernel and then kernel gives you the required output on your screen(hardware)
+    
+* System Utilities: Tools and programs that help manage and control various aspects of the system, like installing software, configuring settings, and managing files and processes.
+    
+* Applications: Software programs that run on top of the Linux operating system, such as web browsers, office software, media players, and development tools.
+    
+
 ### Basic Linux commands:
 
 1. `ls`: List files and directories.
