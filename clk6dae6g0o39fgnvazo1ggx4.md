@@ -29,7 +29,7 @@ Lets start with what Linux, why Linux & how it is important for DevOps
 * Linux provides a user-friendly interface and supports various software applications.
     
 
-### 🧐Why Linux ?
+### 🔑Why Linux ?
 
 * Linux is free to use.
     
@@ -44,7 +44,7 @@ Lets start with what Linux, why Linux & how it is important for DevOps
 
 > "Linux: The Ultimate Catalyst for DevOps Success"
 
-### how it is important for DevOps?
+### ⚙️how it is important for DevOps?
 
 * Compatibility & Flexibility: Lnux provides a flexible and customizable environment and compatible with a wide range of software tools and technologies commonly used in DevOps practices.
     
@@ -55,7 +55,7 @@ Lets start with what Linux, why Linux & how it is important for DevOps
 * Scalability: Linux excels at handling scalable workloads, allowing DevOps teams to efficiently manage and scale their infrastructure as needed.
     
 
-### Linux Architecture:
+### 🏢Linux Architecture:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689597027273/5c79940e-0064-4805-8622-e49b07935a34.png align="center")
 
@@ -70,7 +70,7 @@ Lets start with what Linux, why Linux & how it is important for DevOps
 * Applications: Software programs that run on top of the Linux operating system, such as web browsers, office software, media players, and development tools.
     
 
-### Basic Linux commands:
+### 💻Basic Linux commands:
 
 1. `ls`: List files and directories.
     
