@@ -12,7 +12,7 @@ tags: linux, aws, devops, linux-commands, 90daysofdevops
 
 Hi Techies,
 
-In this Day 3 blog post of the #90daysofDevOps challenge, I will introduce you to more basic commands of Linux and provide demonstrations for better understanding.
+In this Day 3 blog post of the #90daysofDevOps challenge, I will present an introduction to fundamental Linux commands and offer demonstrations to enhance your understanding.
 
 ---
 
@@ -22,9 +22,9 @@ In this Day 3 blog post of the #90daysofDevOps challenge, I will introduce you t
 
 `chmod` - To change the access permissions of the file
 
-`history` \- To see history of the commands that you ran
+`history` - To see history of the commands that you ran
 
-`rm/rmdir` \- To remove file/directory
+`rm/rmdir` - To remove file/directory
 
 `vi` - To add contents in a file
 
@@ -32,13 +32,13 @@ In this Day 3 blog post of the #90daysofDevOps challenge, I will introduce you t
 
 `tail` - To show the bottom lines from the file
 
-`diff` \- To find difference between files
+`diff` - To find difference between files
 
 ---
 
 1. ### To view what's written in a file.
     
-    we can use cat command to view the content of file
+    we can use `cat` command to view the content of file
     
 
 ```plaintext
