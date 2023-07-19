@@ -169,9 +169,9 @@ we have many ways to create a file:
     
 2. Using echo command: The `echo` command can be used to create a file with content. For example, `echo "Hello, World!" >> filename.txt` will create a file named "filename.txt" and write the text "Hello, World!" to it.
     
-    where '&gt;' will overwrite the file with new content
+    **where '&gt;' will overwrite the file with new content**
     
-    '&gt;&gt;' will append the content to the file without overwriting
+    **'&gt;&gt;' will append the content to the file without overwriting**
     
     ```plaintext
     ubuntu@ip-172-31-94-170:~$ ls
@@ -214,6 +214,10 @@ we have many ways to create a file:
     ```
     
 3. Using redirection operators: You can create a file and input content using redirection operators. For example, `cat > filename.txt` allows you to enter text directly into the terminal, and pressing **Ctrl+D** will save the entered text as the content of the file.
+    
+    **where '&gt;' will overwrite the file with new content**
+    
+    **'&gt;&gt;' will append the content to the file without overwriting**
     
     ```plaintext
     ubuntu@ip-172-31-94-170:~$ cat > language.txt
@@ -362,6 +366,26 @@ lets look at the output:
 <mark>&lt;Guava</mark> : The content you need to change.
 
 <mark>&gt; Purple, </mark> \&gt; Grey : The content you need to change it to
+
+The `diff` command in Linux offers various options that allow you to customize the behavior and output of the comparison between `file1` and `file2`. These options can be used to control the level of detail.Here are some commonly used options with the `diff` command:
+
+1. `-q` or `--brief`: Provides a brief output, indicating only whether the files differ or not. It does not display the actual differences.
+    
+    Example: `diff -q file1.txt file2.txt`
+    
+    ```plaintext
+    ubuntu@ip-172-31-94-170:~/lalit$ diff -q colors.txt fruits.txt 
+    Files colors.txt and fruits.txt differ
+    ```
+    
+2. `-r` or `--recursive`: Enables recursive comparison for directories, comparing files within subdirectories. Example: `diff -r dir1 dir2`
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689769532605/9024c8fb-6746-4b8d-ac68-a777b9ae2db4.png align="center")
+    
+3. `-u` or `--unified`: Displays the differences in a unified format, showing both the original and changed lines. This format provides more context around the changes. Example: `diff -u file1.txt file2.txt`
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689769922132/35afdf83-db20-4dd5-90c6-f86867162c67.png align="center")
+    
 
 Thank you for reading this blog!
 
