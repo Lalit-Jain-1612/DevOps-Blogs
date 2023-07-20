@@ -1,5 +1,5 @@
 ---
-title: "Day 4 : Basic Linux Shell Scripting for DevOps"
+title: "(Day-4) : Basic Linux Shell Scripting for DevOps"
 seoTitle: "(Day-4) : Basic Linux Shell Scripting for DevOps"
 datePublished: Thu Jul 20 2023 11:10:51 GMT+0000 (Coordinated Universal Time)
 cuid: clkb1x94g00030amj6ha4eocl
@@ -9,6 +9,14 @@ ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689851302984/48f56
 tags: linux, aws, devops, shell-scripting, 90daysofdevops
 
 ---
+
+> "Shell Scripting: Slow and Steady Wins the Coding Race! 🐚"
+
+In the world of coding, mastering Shell Scripting is like adopting the approach of a determined turtle 🐢🏁.
+
+With each line of code, you embrace the "slow and steady" philosophy to achieve remarkable results in the coding race. 🌟💻
+
+So, fellow coders, let's channel the spirit of the turtle and embark on this coding adventure with patience, determination, and the magic of Shell Scripting! 🌠
 
 ### What is Kernel?🧠
 
@@ -74,7 +82,7 @@ ubuntu@ip-172-31-94-170:~$ which bash
     chmod 777 challenge.sh
     ```
     
-    either we can use `bash <filename.sh>` or '`./'` notation before &lt;`filename.sh`\&gt; to execute '`.sh`' file. (By using "./" before the script name, you explicitly tell the shell to look for the script in the current directory).
+    either we can use `bash <filename.sh>` or '`./'` notation before &lt;`filename.sh`&gt; to execute '`.sh`' file. (By using "./" before the script name, you explicitly tell the shell to look for the script in the current directory).
     
     <mark>Note</mark> : Don't give space between './' and '&lt;filename.sh\`&gt;'
     
