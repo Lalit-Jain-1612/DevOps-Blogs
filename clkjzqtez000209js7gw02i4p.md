@@ -10,7 +10,7 @@ tags: linux, aws, 90daysofdevops, trainwithshubham, advanced-linux
 
 ---
 
-### User management:
+### User management👤:
 
 1. how to add a new user
     
@@ -55,7 +55,7 @@ tags: linux, aws, 90daysofdevops, trainwithshubham, advanced-linux
     ```
     
 
-### Group management:
+### Group management👥:
 
 Group is a collection of users.
 
@@ -138,14 +138,14 @@ why do we need groups: suppose you are a devOps engineer and in your company the
     ```
     
 
-### grep(Global Regular Expression Print):
+### grep command🔍:
 
-1. `grep` is used for searching and pattern matching in text. It searches for lines within one or more text files that match a specified pattern or regular expression and prints those lines as output.
+1. `grep` (Global Regular Expression Print) is used for searching and pattern matching in text. It searches for lines within one or more text files that match a specified pattern or regular expression and prints those lines as output.
     
     syntax :
     
     ```plaintext
-    grep [options] pattern file(s) 
+    grep [options] pattern file(s)
     ```
     
     **Options:** `grep` supports various options that modify its behavior. Some commonly used options include:
@@ -186,7 +186,7 @@ why do we need groups: suppose you are a devOps engineer and in your company the
     `'^(Virat|sachin)'` this command searches for lines that starts with Virat or sachin.
     
 
-### awk command
+### awk command🧮:
 
 It is primarily used for data extraction, manipulation, and reporting. AWK reads text files line by line, splits each line into fields, and then performs operations based on predefined patterns and actions.
 
@@ -213,7 +213,7 @@ awk '/pattern/ { action }' input_file
     * `print $1, $2, $3`: If the line contains "TRACE", it prints the first, second and third fields (columns) of that line.
         
 
-### find command
+### find command🔎:
 
 It is used to search for files and directories within a specified directory hierarchy based on various criteria such as filename, size, ownership, modification time, and more.
 
