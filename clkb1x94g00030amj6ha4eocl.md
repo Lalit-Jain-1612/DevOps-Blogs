@@ -82,7 +82,7 @@ ubuntu@ip-172-31-94-170:~$ which bash
     chmod 777 challenge.sh
     ```
     
-    either we can use `bash <filename.sh>` or '`./'` notation before &lt;`filename.sh`&gt; to execute '`.sh`' file. (By using "./" before the script name, you explicitly tell the shell to look for the script in the current directory).
+    either we can use `bash <filename.sh>` or '`./'` notation before &lt;`filename.sh`\&gt; to execute '`.sh`' file. (By using "./" before the script name, you explicitly tell the shell to look for the script in the current directory).
     
     <mark>Note</mark> : Don't give space between './' and '&lt;filename.sh\`&gt;'
     
@@ -160,6 +160,41 @@ here,
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689850573344/87652967-07e4-452b-ad4b-989923b88447.png align="center")
+
+### Create multiple directories using shell script by passing arguments
+
+1. using one line command
+    
+    let's create a shell script "`nano createDirectory.sh`" and set permission "`chmod 700 createDirectory`"
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691399165175/c0d4db09-2cdd-4097-9969-f756ae388d2f.png align="center")
+    
+    The eval command first evaluates the argument and then runs the command stored in the argument.
+    
+    let's run the shell script `./createDirectory.sh day 1 90`
+    
+    day -&gt; $1
+    
+    1 -&gt; $2
+    
+    90 -&gt; $3
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691399678365/4652873e-bfb3-4fc1-bf5a-6718c53f3fd0.png align="center")
+    
+2. Using For loop
+    
+    ```plaintext
+    #!/bin/bash
+    
+    #using for loop
+    for ((i=$2;i<=$3;i++));
+    do
+           mkdir $1$i
+    done
+    ```
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691401120073/0e67dec7-18ef-4a67-802b-c18f84acb659.png align="center")
+    
 
 Thank you for reading...😊!
 
