@@ -14,7 +14,7 @@ HCL stands for HashiCorp Configuration Language. HCL is designed to be both huma
 
 In the context of Terraform, HCL is used to write the infrastructure configuration, where you define the desired state of your infrastructure resources, their relationships, and their attributes in a clear and concise manner. HCL files typically have a `.tf` extension.
 
-### Baisc syntax of HCL
+### Basic syntax of HCL
 
 ```plaintext
 <block> <parameters> {
